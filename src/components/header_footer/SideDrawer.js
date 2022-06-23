@@ -14,6 +14,18 @@ const SideDrawer = (props) => {
                 <ListItem button onClick={()=> console.log('Featured')}>
                     Event Start In
                 </ListItem>
+                <ListItem button onClick={()=> console.log('Venue NFO')}>
+                    Venue NFO
+                </ListItem>
+                <ListItem button onClick={()=> console.log('Hightlights')}>
+                    Hightlights
+                </ListItem>
+                <ListItem button onClick={()=> console.log('Pricing')}>
+                    Pricing
+                </ListItem>
+                <ListItem button onClick={()=> console.log('Location')}>
+                    Location
+                </ListItem>
             </List>
         </Drawer>
     );
